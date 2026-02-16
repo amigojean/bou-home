@@ -187,6 +187,35 @@
     margin-bottom: 56px;
   }
 
+  .portfolio-category {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--white);
+    margin-bottom: 24px;
+    margin-top: 48px;
+    letter-spacing: -0.01em;
+  }
+
+  .portfolio-category:first-of-type { margin-top: 0; }
+
+  .portfolio-category-sub {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+    margin-left: 8px;
+  }
+
+  .broota-link {
+    color: var(--neon);
+    text-decoration: none;
+    transition: opacity 0.3s;
+  }
+
+  .broota-link:hover { opacity: 0.7; }
+
   .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -547,7 +576,7 @@
   </p>
   <div class="hero-stats">
     <div>
-      <div class="stat-num">6</div>
+      <div class="stat-num">7</div>
       <div class="stat-label">Startups en portafolio</div>
     </div>
     <div>
@@ -570,6 +599,7 @@
     </p>
   </div>
 
+  <h3 class="portfolio-category fade-in">Inversión directa</h3>
   <div class="portfolio-grid">
     <a href="https://cumplo.com/" target="_blank" class="company-card fade-in">
       <div class="card-header">
@@ -619,6 +649,25 @@
       <div class="card-arrow">↗</div>
     </a>
 
+    <a href="https://diio.com/" target="_blank" class="company-card fade-in">
+      <div class="card-header">
+        <div class="company-name">diio</div>
+        <div class="company-tag">AI · SaaS</div>
+      </div>
+      <p class="company-desc">
+        Asistente de ventas potenciado por IA que analiza reuniones, llamadas y mensajes para entregar coaching en tiempo real. +200 empresas en Latam, incluyendo Buk, Xepelin y Betterfly. Seleccionada por AWS entre +4.700 startups.
+      </p>
+      <div class="company-meta">
+        <span class="meta-pill">Sales AI</span>
+        <span class="meta-pill">B2B</span>
+        <span class="meta-pill">Base10 backed</span>
+      </div>
+      <div class="card-arrow">↗</div>
+    </a>
+  </div>
+
+  <h3 class="portfolio-category fade-in">Vía <a href="https://broota.com/" target="_blank" class="broota-link">Broota</a> <span class="portfolio-category-sub">crowdequity</span></h3>
+  <div class="portfolio-grid">
     <a href="https://www.zapping.com/" target="_blank" class="company-card fade-in">
       <div class="card-header">
         <div class="company-name">Zapping</div>
@@ -651,18 +700,18 @@
       <div class="card-arrow">↗</div>
     </a>
 
-    <a href="https://diio.com/" target="_blank" class="company-card fade-in">
+    <a href="https://www.bybug.io/" target="_blank" class="company-card fade-in">
       <div class="card-header">
-        <div class="company-name">diio</div>
-        <div class="company-tag">AI · SaaS</div>
+        <div class="company-name">ByBug</div>
+        <div class="company-tag">BioTech</div>
       </div>
       <p class="company-desc">
-        Asistente de ventas potenciado por IA que analiza reuniones, llamadas y mensajes para entregar coaching en tiempo real. +200 empresas en Latam, incluyendo Buk, Xepelin y Betterfly. Seleccionada por AWS entre +4.700 startups.
+        Plataforma de biomanufactura que usa mosca soldado negro genéticamente modificada para transformar residuos orgánicos en proteínas recombinantes. 60% más rentable que biorreactores tradicionales. Aplicaciones en salmonicultura, avicultura y acuicultura.
       </p>
       <div class="company-meta">
-        <span class="meta-pill">Sales AI</span>
-        <span class="meta-pill">B2B</span>
-        <span class="meta-pill">Base10 backed</span>
+        <span class="meta-pill">Biomanufactura</span>
+        <span class="meta-pill">SynBio</span>
+        <span class="meta-pill">AgriTech</span>
       </div>
       <div class="card-arrow">↗</div>
     </a>
